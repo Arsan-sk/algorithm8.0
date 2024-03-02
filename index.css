@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+      border-radius: 50%;
+      height: 45px;
+      width: 45px;
+      float: right;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.box1,
+.box2 {
+    background-color: #eee;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 4px 4px 10px rgb(0,0,0) ;
+}
+
+
+.box1 h1,H3,
+.box2 h1
+ {
+    color: #333;
+}
+
+.box1 h4,
+.box2 h4 {
+    color: #666;
+}
+
+.img img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    box-shadow: 4px 4px 10px rgb(0,0,0) ;
+}
+
+.box3{
+      n: 5px;
+}
+
+.container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    color: #333;
+    box-shadow: 4px 4px 10px rgb(0,0,0) ;
+}
+
+
+.container2 {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: #333;
+    box-shadow: 4px 4px 10px rgb(0,0,0) ;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container2 {
+        background-color: #f9f9f9;
+        text-align: left;
+        padding: 20px;
+        margin-top: 20px;
+        color: #333;
+    }
+  }
